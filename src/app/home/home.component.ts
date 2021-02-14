@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import Toast from 'nativescript-android-toast';
+
 
 @Component({
 	moduleId: module.id,
@@ -13,6 +15,10 @@ export class HomeComponent implements OnInit {
 
 	ngOnInit() { }
 	public onClick(){
-		console.log("Mostrando en consola xdxdxd");
+		Toast.MakeToast("♥Gracias por todo, te adoro demasiado ♥", "long");	
+		
+	}public onTouch(){
+		Toast.MakeToast("♥ Eres el amor de mi vida ♥", "long");	
+		
 	}
 }
