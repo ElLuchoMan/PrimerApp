@@ -15,10 +15,10 @@ export class HomeComponent implements OnInit {
 
 	ngOnInit() { }
 	public onClick(){
-		Toast.MakeToast("♥Gracias por todo, te adoro demasiado ♥", "long");	
+		Toast.MakeToast("Tocaste el botón", "long");	
 		
 	}public onTouch(){
-		Toast.MakeToast("♥ Eres el amor de mi vida ♥", "long");	
+		Toast.MakeToast("Tocaste afuera", "long");	
 		
 	}
 }
